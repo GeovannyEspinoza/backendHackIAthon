@@ -205,3 +205,47 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Entorno virtual
+.venv/
+env/
+venv/
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos temporales / caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Archivos de datos temporales
+data/tmp/
+data/*.json
+!data/samples/*.json  # excepto los samples de prueba
+
+# Archivos de navegador Playwright
+tiktok_profile/
+tiktok_state.json
+browser_profiles/
+playwright/.cache/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Salidas de ejecución
+*.txt
+*.csv
+
+# Docker
+*.pid
+*.sock
